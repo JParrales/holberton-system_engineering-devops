@@ -13,3 +13,5 @@ This directory contains a 0x00. Shell, basics TASKS
 5-listfilesdigitonly: 4-listmorefiles + group IDs displayed numerically.
 
 6-firstdirectory: creates a directory named holberton in the /tmp/ directory.
+
+7-movethatfile:  Move the file betty from /tmp/ to /tmp/holberto.
