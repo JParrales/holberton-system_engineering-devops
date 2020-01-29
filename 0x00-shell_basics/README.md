@@ -5,3 +5,5 @@ This directory contains a 0x00. Shell, basics TASKS
 1-listit: Display the contents list of your current directory.
 
 2-bring_me_home: Changes the working directory to the users home directory.
+
+3-listfiles: Display current directory contents in a long format.
