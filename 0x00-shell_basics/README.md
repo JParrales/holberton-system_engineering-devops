@@ -11,3 +11,5 @@ This directory contains a 0x00. Shell, basics TASKS
 4-listmorefiles: Display current directory contents, including hidden files.
 
 5-listfilesdigitonly: 4-listmorefiles + group IDs displayed numerically.
+
+6-firstdirectory: creates a directory named holberton in the /tmp/ directory.
