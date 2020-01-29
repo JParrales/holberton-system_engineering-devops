@@ -15,3 +15,9 @@ This directory contains a 0x00. Shell, basics TASKS
 6-firstdirectory: creates a directory named holberton in the /tmp/ directory.
 
 7-movethatfile:  Move the file betty from /tmp/ to /tmp/holberto.
+
+8-firstdelete: Delete the file betty from /tmp/holberton/ .
+
+9-firstdirdeletion: Delete the directory holberton that is in the /tmp directory.
+
+10-back: Changes the working directory to the previous one
