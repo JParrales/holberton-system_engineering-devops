@@ -1,2 +1,2 @@
 #!/bin/bash
-chmode ugo = olleh hello 
+chmode a = olleh hello 
