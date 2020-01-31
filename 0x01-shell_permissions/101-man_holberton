@@ -1,0 +1,17 @@
+.\" man(2)
+
+.SH NAME
+Jose Parrales
+.SH SYNOPSIS
+holberton [STUDENT]
+.SH DESCRIPTION
+Holberton School is a project-based alternative to college for the next generation of software engineers.
+.SH OPTIONS
+Foundations Specializations Career Sprint
+.SH SEE ALSO
+AR/VR	Low-Level and Algorithms	Machine Learning	Web Stack
+.SH BUGS
+No known bugs.
+.SH AUTHOR
+JParrales
+
