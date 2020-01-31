@@ -1,2 +1,2 @@
 #!/bin/bash
-chgrp guillaume=betty hello 
+chgrp guillaume betty hello 
