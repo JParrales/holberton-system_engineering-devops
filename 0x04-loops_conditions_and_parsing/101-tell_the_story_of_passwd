@@ -1,10 +1,8 @@
 #!/usr/bin/env bash
 # This script display the story  of the file /etc/passwd
 
-file="/etc/passwd"
-
-while IFS=: read -r username pass u_id g_id u_info home cmd
+FILENAME="/etc/passwd"
+while IFS=: read -r username password userid groupid comment homedir cmdshell
 do
-	echo "The user $username is part of the $g_id gang, lives in $home and rides $cmd. $u_id's place is protected by the passcode $pass, more info about the user here: $u_info"
-	
-done < "$file"
+  echo "The user $username is part of the $groupid gang, lives in $homedir and rides $cmdshell. $userid's place is protected by the passcode $password, more info about the user here: $comment"
+done < $FILENAME
