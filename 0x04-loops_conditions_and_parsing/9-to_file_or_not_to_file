@@ -7,18 +7,18 @@ if [ ! -e $file ]
 then
 	echo "holbertonschool file does not exist"
 	exit 0
-else
-	echo "holbertonschool file exist"
+fi
 
-	if [ ! -s $file ]
-	then
-		echo "holbertonschool file is empty"
-	else
-		echo "holbertonschool file is not empty"
-	fi
-	
-	if [ ! -d $file ]
-	then
-		echo "holbertonschool is a regular file"
-	fi
+echo "holbertonschool file exists"
+
+if [ -s $file ]
+then
+	echo "holbertonschool file is not empty"
+else
+	echo "holbertonschool file is empty"
+fi
+
+if [ ! -d $file ]
+then
+	echo "holbertonschool is a regular file"
 fi
