@@ -5,20 +5,20 @@ file="holbertonschool"
 
 if [ ! -e $file ]
 then
-	echo $file  "file does not exist"
+	echo "holbertonschool file does not exist"
 	exit 0
 else
-	echo $file "file exist"
+	echo "holbertonschool file exist"
 
 	if [ ! -s $file ]
 	then
-		echo $file "file is empty"
+		echo "holbertonschool file is empty"
 	else
-		echo $file "file is not empty"
+		echo "holbertonschool file is not empty"
 	fi
 	
 	if [ ! -d $file ]
 	then
-		echo $file "is a regular file"
+		echo "holbertonschool is a regular file"
 	fi
 fi
