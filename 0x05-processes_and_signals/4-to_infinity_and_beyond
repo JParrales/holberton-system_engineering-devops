@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-iscript that displays *To infinity and beyond* indefinitely.
+# script that displays *To infinity and beyond* indefinitely.
 
 while true; do echo 'To infinity and beyond'; sleep 2; done
