@@ -1,2 +1,5 @@
 #!/bin/bash/
 rm *~ *#
+
+#0x06-regular_expressions
+*.log
