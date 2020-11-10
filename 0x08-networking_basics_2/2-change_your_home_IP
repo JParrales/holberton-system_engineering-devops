@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# configures an Ubuntu server
+
+cp /etc/hosts ~/hosts.new
+sed -i s/127.0.0.2/127.0.0.1/ ~/hosts.new
+cp -f ~/hosts.new /etc/hosts
+echo "8.8.8.8   facebook.com" >> ~/hosts.new
+cat ~/hosts.new > /etc/hosts
