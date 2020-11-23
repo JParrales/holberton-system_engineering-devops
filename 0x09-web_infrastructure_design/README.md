@@ -27,7 +27,7 @@ Requirements:
   - 1 domain name foobar.com configured with a www record that points to your server IP 8.8.8.8
 
 <p align="center">
-  <img src="https://imgur.com/mRvl4Bb">
+  <img src="https://i.imgur.com/mRvl4Bb.png">
 </p>
 
 ### [1. Distributed web infrastructure](./1-distributed_web_infrastructure)
@@ -43,7 +43,7 @@ Requirements:
   - 1 database (MySQL)
 
 <p align="center">
-  <img src="https://imgur.com/cu1QYhG">
+  <img src="https://i.imgur.com/cu1QYhG.png">
 </p>
 
 ### [2. Secured and monitored web infrastructure](./2-secured_and_monitored_web_infrastructure)
@@ -64,15 +64,17 @@ Requirements:
 Requirements:
 
   -You must add:
-    *1 server
-    *1 load-balancer (HAproxy) configured as cluster with the other one
-    *Split components (web server, application server, database) with their own server
+    -1 server
+    -1 load-balancer (HAproxy) configured as cluster with the other one
+    -Split components (web server, application server, database) with their own server
   -You must be able to explain some specifics about this infrastructure:
-    *For every additional element, why you are adding it
+    -For every additional element, why you are adding it
 
 <p align="center">
   <img src="https://imgur.com/cu1QYhG">
 </p>
+
+</details>
 
 ## Author
 
