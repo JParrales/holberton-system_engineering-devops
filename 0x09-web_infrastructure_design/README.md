@@ -56,7 +56,7 @@ Requirements:
   - 3 monitoring clients (data collector for Sumologic or other monitoring services)
 
 <p align="center">
-  <img src="https://imgur.com/cu1QYhG">
+  <img src="https://i.imgur.com/RncKik7.png">
 </p>
 
 ### [3. Scale up](./3-scale_up)
