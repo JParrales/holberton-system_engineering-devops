@@ -71,7 +71,7 @@ Requirements:
     -For every additional element, why you are adding it
 
 <p align="center">
-  <img src="https://imgur.com/cu1QYhG">
+  <img src="https://i.imgur.com/ZxIvIgn.png">
 </p>
 
 </details>
