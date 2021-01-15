@@ -1,8 +1,16 @@
 #!/usr/bin/env bash
-# Serve a web page using nginx
+# redirecting to another page.
 
+sudo service nginx restart
+sudo apt-get -y upgrade
+sudo apt-get -y install nginx
+sudo echo "Holberton School" > /var/www/html/index.html
 
-LINE="\\\trewrite ^/redirect_me https://github.com/jparrales permanent;"
-sed -i "24i $LINE" /etc/nginx/sites-available/default
+REDIRECT='\\trewrite ^/redirect_me https://github.com/jparrales permanent;'
+filePath='/etc/nginx/sites-available/default'
+sed -i '20i\\t#Permanent redirects' $filePath
+sed -i '21i\\t#' $filePath
+sed -i "22i $REDIRECT" $filePath
+sed -i '23i \\t' $filePath
 
 service nginx restart
