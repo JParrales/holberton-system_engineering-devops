@@ -2,9 +2,6 @@
 
 """Reddit client"""
 
-import requests
-
-
 import pprint
 import requests
 
